@@ -1,6 +1,38 @@
 # Konnect
 
-This repository contains a MERN (MongoDB, Express.js, React, Node.js) stack project with two main folders: `backend` and `frontend`. Follow the steps below to set up the project on your local machine.
+## Project Functionalities
+
+- **User Authentication**: Users can register and log in, and their email addresses can be verified. Passwords can be reset if forgotten.
+  
+- **Create and Manage Posts**: Users can create posts that can contain text and images. They also have the ability to edit or delete their own posts.
+  
+- **Reactions**: Users can react to posts with likes and dislikes, providing a way to express their opinions.
+  
+- **Profile Views**: Users can see the number of viewers of their profiles, along with their names, offering insights into their post's reach.
+  
+- **Content Moderation**: The system includes a feature to automatically block users if their posts contain profane or unhealthy words, utilizing the "bad-words" library in JavaScript to maintain a safe environment.
+  
+- **Follow System**: Users can follow other users, enabling them to see their posts and interact with their content through comments.
+  
+- **Account Tiers**: Users start with a "Starter Account" tag, which limits them to creating only two posts. After gaining more than two followers, they can upgrade to a "Pro Account" and create more posts.
+
+- **Admin Portal**: There's a separate admin portal for managing user blocking and unblocking, ensuring effective content moderation.
+
+![Screenshot (38)](https://github.com/ShivamPatel-India/Konnect/assets/70719016/c10fa7b9-a851-41a5-99f7-d5966abac4b9)
+![Screenshot (39)](https://github.com/ShivamPatel-India/Konnect/assets/70719016/a7a55a5f-27dc-436d-900f-f7e9be0e4659)
+![image](https://github.com/ShivamPatel-India/Konnect/assets/70719016/a75bfd4d-6d53-428d-a194-aa781ee03113)
+![image](https://github.com/ShivamPatel-India/Konnect/assets/70719016/99f1589d-1432-4d2b-bf9a-e6d39f955066)
+![image](https://github.com/ShivamPatel-India/Konnect/assets/70719016/0c6ad18a-d57b-46a0-8c6e-53db23f37b49)
+
+
+## Structure and Third-Party Services
+
+This repository contains a MERN (MongoDB, Express.js, React, Node.js) stack + Tailwind CSS project with two main folders: backend and frontend. Follow the steps below to set up the project on your local machine.
+
+- Project uses **SendGrid Email Services** in order to perform user authentication-related tasks such as verification and password reset.
+- Project stores all the media such as profile pictures and post images to **Cloudinary Media Storage**.
+
+Follow the instructions given below to set up and run this project on your local machine.
 
 ## Prerequisites
 
