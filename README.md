@@ -46,7 +46,7 @@ Before you begin, make sure you have the following prerequisites installed on yo
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-mern-project.git
+   git clone https://github.com/your-username/your-mern-project.git](https://github.com/ShivamPatel-India/Konnect.git
    ```
 
 2. Navigate to the project's root directory:
