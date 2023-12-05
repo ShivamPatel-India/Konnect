@@ -1,5 +1,7 @@
 # Konnect
 
+Konnect is a user-centric social platform offering secure authentication, content creation with reactions, follower dynamics, and automated content moderation. With tiered accounts and an admin portal, it ensures a safe, engaging space for users to connect and share meaningful content.
+
 ## Project Functionalities
 
 - **User Authentication**: Users can register and log in, and their email addresses can be verified. Passwords can be reset if forgotten.
